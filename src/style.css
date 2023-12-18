@@ -52,6 +52,25 @@ form,
   background: #9986cd;
 }
 
+.examples {
+  font-size: 12px;
+  opacity: 0.6;
+  margin: 5px 0 0 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.blink {
+  animation: blink-animation 0.7s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
 footer {
   text-align: center;
   font-size: 13px;
