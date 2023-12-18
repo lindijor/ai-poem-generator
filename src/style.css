@@ -45,11 +45,18 @@ form,
 
 .submit-button {
   padding: 10px 15px;
-  border: 1px #9986cd solid;
+  border: 2px #9986cd solid;
   border-radius: 30px;
   font-size: 16px;
   color: white;
   background: #9986cd;
+  transition: all 100ms ease-in-out;
+}
+
+.submit-button:hover {
+  color: #9986cd;
+  background: white;
+  cursor: pointer;
 }
 
 .examples {
@@ -69,6 +76,10 @@ form,
   to {
     visibility: hidden;
   }
+}
+
+a {
+  color: #9986cd;
 }
 
 footer {
