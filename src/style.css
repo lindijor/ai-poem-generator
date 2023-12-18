@@ -1,0 +1,54 @@
+body {
+  background-color: #f2effa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  margin: 80px auto;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+main {
+  margin: 0 auto 50px auto;
+  max-width: 600px;
+}
+
+form,
+.poem {
+  background-color: white;
+  padding: 30px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.poem {
+  border-left: 2px #9986cd solid;
+  font-size: 16px;
+}
+
+.prompt {
+  width: 75%;
+  padding: 10px;
+  border: 1px black solid;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  border: 1px #9986cd solid;
+  border-radius: 30px;
+  font-size: 16px;
+  color: white;
+  background: #9986cd;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+}
