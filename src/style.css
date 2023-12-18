@@ -31,6 +31,10 @@ form,
   font-size: 16px;
 }
 
+.poem strong {
+  color: #9986cd;
+}
+
 .prompt {
   width: 75%;
   padding: 10px;
